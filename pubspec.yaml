@@ -9,7 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  linkify: ^2.1.0
+  linkify:
+    git:
+      url: https://github.com/nabeelpkl/linkify
 
 dev_dependencies:
   pedantic: ^1.0.0
